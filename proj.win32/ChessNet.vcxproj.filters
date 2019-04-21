@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLasses">
+      <UniqueIdentifier>{7a332e5d-05a7-4580-b496-1416367204ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\backMusic.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plate.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneGame.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneStart.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Step.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stone.cpp">
+      <Filter>CLasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\backMusic.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plate.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneGame.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneStart.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Step.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stone.h">
+      <Filter>CLasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
